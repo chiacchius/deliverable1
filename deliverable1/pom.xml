@@ -2,6 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>deliverable1</groupId>
   <artifactId>deliverable1</artifactId>
+  <properties>
+  <sonar.projectKey>chiacchius_deliverable1</sonar.projectKey>
+  <sonar.organization>chiacchius</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
 	<dependency>
@@ -9,9 +14,18 @@
   		<artifactId>org.eclipse.jgit</artifactId>
   		<version>5.4.2.201908231537-r</version>
 	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20210307</version>
+	</dependency>
+	
 	<dependency>
     <groupId>org.slf4j</groupId>
     <artifactId>slf4j-api</artifactId>
+    
     <version>1.7.30</version>
 	</dependency>
 	<dependency>
