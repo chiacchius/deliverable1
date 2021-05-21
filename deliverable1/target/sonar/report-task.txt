@@ -1,0 +1,7 @@
+organization=chiacchius
+projectKey=chiacchius_deliverable1
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.20278
+dashboardUrl=https://sonarcloud.io/dashboard?id=chiacchius_deliverable1
+ceTaskId=AXmKct_xJ9oCsG-FbpWe
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXmKct_xJ9oCsG-FbpWe
