@@ -1,113 +1,132 @@
 
-cDeliverable1.GithubHandler#findFixDate(Ljava/util/List;Ljava/lang/String;)Ljava/time/LocalDateTime;a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java@ @(("6*ä
-3a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ J(çä
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ% J(;	
+^project.GithubHandler#findFixDate(Ljava/util/List;Ljava/lang/String;)Ljava/time/LocalDateTime;\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java6 6(("6*Ð
+3\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@ @(âß
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@% @(;	
 %6int"3org.eclipse.jgit.revwalk.RevCommit#getCommitTime()I*.
 ,
-commit"org.eclipse.jgit.revwalk.RevCommit2getCommitTime()Ú
-×
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ J(<
+commit"org.eclipse.jgit.revwalk.RevCommit2getCommitTime()Õ
+Ò
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@ @(<
 %7java.time.Instant"5java.time.Instant#ofEpochSecond(J)Ljava/time/Instant;*"
 java.time.Instant*
 	
-%6intØ
-Õ
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJD J(T
+%6intÓ
+Ð
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@D @(T
 %8java.time.ZoneId"9java.time.ZoneId#of(Ljava/lang/String;)Ljava/time/ZoneId;*"
 java.time.ZoneId*
-UTCš
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ J(U
+UTC˜•
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@ @(U
 %9java.time.ZonedDateTime"Ejava.time.Instant#atZone(Ljava/time/ZoneId;)Ljava/time/ZonedDateTime;*
 
 %7java.time.Instant*
 
-%8java.time.ZoneId2atZone(Ljava/time/ZoneId;)þû
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ J(g
+%8java.time.ZoneId2atZone(Ljava/time/ZoneId;)ùö
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@ @(g
 %10java.time.LocalDateTime"Bjava.time.ZonedDateTime#toLocalDateTime()Ljava/time/LocalDateTime;*
 
-%9java.time.ZonedDateTime2toLocalDateTime()³
-°
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaJ J(g#
+%9java.time.ZonedDateTime2toLocalDateTime()®
+«
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java@ @(g#
 dateTimejava.time.LocalDateTime"__id* 
 
-%10java.time.LocalDateTime*
-5*¹	
-4a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaF F(Á
-¾
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaF F($(
+%10java.time.LocalDateTimeË
+È
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javaB B(#
+%11project.MyLogger"9project.MyLogger#getSingletonInstance()Lproject/MyLogger;*"
+project.MyLoggerÉ
+Æ
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javaB- B(Y
+%12java.lang.String"__concat*(&
+$[*] Found commit related to ticket: *
+
+keyjava.lang.Stringòï
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javaB B(Z
+%13void".project.MyLogger#saveMess(Ljava/lang/String;)V*
+
+%11project.MyLogger*
+
+%12java.lang.String2saveMess(Ljava/lang/String;)*
+5*›	
+4\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java< <(¼
+¹
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java< <($(
 %2"org.eclipse.jgit.revwalk.RevCommit"
 __arrayGet*
 
 commitsjava.util.List*
-""Æ
-Ã
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaF F(%,
+""Á
+¾
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java< <(%,
 commit"org.eclipse.jgit.revwalk.RevCommit"__id**
 (
-%2"org.eclipse.jgit.revwalk.RevCommit‡„
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaH H(
+%2"org.eclipse.jgit.revwalk.RevCommit‚ÿ
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java> >(
 %3java.lang.String"Eorg.eclipse.jgit.revwalk.RevCommit#getFullMessage()Ljava/lang/String;*.
 ,
-commit"org.eclipse.jgit.revwalk.RevCommit2getFullMessage()«
-¨
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaH( H(0
+commit"org.eclipse.jgit.revwalk.RevCommit2getFullMessage()¦
+£
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java>( >(2
 %4java.lang.String"__concat*
 
 keyjava.lang.String*
-\nƒ€
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaH H(1
+\nþû
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java> >(3
 %5boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*
 
 %3java.lang.String*
 
 %4java.lang.String2"contains(Ljava/lang/CharSequence;)*
 3
-5*Ÿ
-5a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaE E(®«
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaE E( 	
+5*•
+5\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java; ;(©¦
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java; ;($	
 %1int"java.util.List#size()I*
 
 commitsjava.util.List2size()*
 4
-1*æ
-6a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaB B(Ü
-Ù
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaB B(
+1*×
+6\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java8 8(×
+Ô
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java8 8(
 
 %0void"0java.util.Collections#reverse(Ljava/util/List;)V*"
 java.util.Collections*
 
-commitsjava.util.List™
-–
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaC C( #
+commitsjava.util.List”
+‘
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java9 9( #
 dateTimejava.time.LocalDateTime"__id*
 ""*
-5*ó
-1a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaR	 R("Š
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.javaR R(%
+5*é
+1\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javaH	 H("…
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javaH H(%
 #
 dateTimejava.time.LocalDateTime:
 commitsjava.util.List:
-keyjava.lang.StringB"
-Deliverable1.GithubHandler
+keyjava.lang.StringB"
+project.GithubHandler

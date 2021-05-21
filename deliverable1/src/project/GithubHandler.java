@@ -53,10 +53,11 @@ public class GithubHandler {
 
 	public static LocalDateTime findFixDate(List<RevCommit> commits, String key) throws SecurityException, IOException {
 
+		int i;
 		Collections.reverse(commits);
 		LocalDateTime dateTime = null;
 
-		for (int i = 0; i < commits.size(); i++) {
+		for (i = 0; i < commits.size(); i++) {
 			RevCommit commit = commits.get(i);
 
 			if (commit.getFullMessage().contains(key + "\n")) {

@@ -1,88 +1,88 @@
 
-qDeliverable1.GithubHandler#cloneProjectFromGitHub(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jgit/api/Git;a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java ()"11*ù
-2a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java! $(Ø
-¨
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java! $(
+lproject.GithubHandler#cloneProjectFromGitHub(Ljava/lang/String;Ljava/lang/String;)Lorg/eclipse/jgit/api/Git;\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java ()"11*ì
+2\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java (™
+ß
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java (
 gitorg.eclipse.jgit.api.Git"__id* 
 
 %6org.eclipse.jgit.api.Git*
-1*Î
-6a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 $(˝˙
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 $(
+1*·
+6\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (¯ı
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (
 %6org.eclipse.jgit.api.Git"Borg.eclipse.jgit.api.CloneCommand#call()Lorg/eclipse/jgit/api/Git;*)
 '
 %5!org.eclipse.jgit.api.CloneCommand2call()*
-2*ø
-7a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 #((—Œ
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 #(('
+2*µ
+7\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (nÃ…
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (n'
 %5!org.eclipse.jgit.api.CloneCommand"aorg.eclipse.jgit.api.CloneCommand#setDirectory(Ljava/io/File;)Lorg/eclipse/jgit/api/CloneCommand;*)
 '
 %2!org.eclipse.jgit.api.CloneCommand*
 
 %3java.io.File2setDirectory(Ljava/io/File;)*
-6*¡
-8a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java#" #(&àÖ
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java# #(!
-%3java.io.File"java.io.File»
-≈
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java# #('
+6*≤
+8\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javah (lÉÄ
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.javac (g
+%3java.io.File"java.io.File√
+¿
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java_ (m
 %4"(java.io.File#<init>(Ljava/lang/String;)V*
 
 %3java.io.File*
 
 pathjava.lang.String*
-7*ç
-9a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java" "(/À
-»
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java" "(=
+7*˛
+9\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java& (B∆
+√
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java& (P
 %1java.lang.String"__concat*
 https://github.com/apache/*!
 
-projectNamejava.lang.String—Œ
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 "(>'
+projectNamejava.lang.StringÃ…
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (Q'
 %2!org.eclipse.jgit.api.CloneCommand"_org.eclipse.jgit.api.CloneCommand#setURI(Ljava/lang/String;)Lorg/eclipse/jgit/api/CloneCommand;*)
 '
 %0!org.eclipse.jgit.api.CloneCommand*
 
 %1java.lang.String2setURI(Ljava/lang/String;)*
-8*Î
-10a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 !(¸
-˘
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java!	 !('
+8*·
+10\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 (˜
+Ù
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java	 ('
 %0!org.eclipse.jgit.api.CloneCommand"Morg.eclipse.jgit.api.Git#cloneRepository()Lorg/eclipse/jgit/api/CloneCommand;*"
 org.eclipse.jgit.api.Git*
-9*Ö
-11a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java (
-ï
-í
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java (
+9*˚
+11\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java (
+ê
+ç
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java (
 
 gitorg.eclipse.jgit.api.Git"__id*
 ""*
-10*Ô
-1a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java*	 *("Ü
-a
-W/Users/chiacchius/Desktop/deliverable1/deliverable1/src/Deliverable1/GithubHandler.java* *(!
+10*Â
+1\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java#	 #("Å
+\
+R/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/GithubHandler.java# #(!
 
 gitorg.eclipse.jgit.api.Git:
 pathjava.lang.String:
-projectNamejava.lang.StringB"
-Deliverable1.GithubHandler
+projectNamejava.lang.StringB"
+project.GithubHandler

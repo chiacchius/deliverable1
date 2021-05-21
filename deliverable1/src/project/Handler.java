@@ -23,7 +23,7 @@ public class Handler {
 	}
 
 	private static String readAll(Reader rd) throws IOException {
-		StringBuilder sb = new StringBuilder();
+		var sb = new StringBuilder();
 		int cp;
 		while ((cp = rd.read()) != -1) {
 			sb.append((char) cp);
