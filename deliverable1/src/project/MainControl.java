@@ -23,12 +23,14 @@ public class MainControl {
 
 	public static void main(String[] args) throws IOException, JSONException, GitAPIException {
 
-		String projName = "STDCXX";
-		String path = "/Users/chiacchius/Desktop/";
+		
+		
+		var projName = "STDCXX";
+		var path = "/Users/chiacchius/Desktop/";
 		Integer j = 0;
 		Integer i = 0;
 		Integer total = 1;
-		Git git = GithubHandler.cloneProjectFromGitHub(path + projName, projName);
+		var git = GithubHandler.cloneProjectFromGitHub(path + projName, projName);
 		logCTR = MyLogger.getSingletonInstance();
 		logCTR.saveMess("[*] Starting retrieve data for proj " + projName);
 
@@ -42,7 +44,7 @@ public class MainControl {
 					+ "%22AND%22resolution%22=%22fixed%22&fields=key,resolutiondate,versions,created&startAt="
 					+ i.toString() + "&maxResults=" + j.toString();
 			JSONObject json = Handler.readJsonFromUrl(url);
-			JSONArray issues = json.getJSONArray("issues");
+			var issues = json.getJSONArray("issues");
 			total = json.getInt("total");
 
 			for (; i < total && i < j; i++) {
