@@ -21,8 +21,10 @@ import org.eclipse.jgit.errors.TransportException;
 public class GithubHandler {
 	
 
-
-	public static Git cloneProjectFromGitHub(String path, String projectName) throws InvalidRemoteException, TransportException, GitAPIException, IOException {
+	private GithubHandler() {}
+	
+	
+	public static Git cloneProjectFromGitHub(String path, String projectName) throws GitAPIException, IOException {
 		//get the project from github and copy it locally
 		
 		Git git;
@@ -33,7 +35,6 @@ public class GithubHandler {
 				       .setDirectory(new File(path)) 
 				       .call();
 		} catch (JGitInternalException e) {
-			//e.printStackTrace();
 			git = Git.open(new File(path));
 			
 		}
@@ -44,7 +45,7 @@ public class GithubHandler {
 	}
 	
 	
-	public static List<RevCommit> getAllCommits(Git git) throws NoHeadException, GitAPIException, IOException{
+	public static List<RevCommit> getAllCommits(Git git) throws GitAPIException, IOException{
 		
 		List<RevCommit> commits = new ArrayList<>();
 		Iterable<RevCommit> log = git.log().all().call();

@@ -20,6 +20,9 @@ import org.json.JSONObject;
 public class Handler {
 	
 	
+	private Handler() {}
+
+	
 	private static String readAll(Reader rd) throws IOException {
 	      StringBuilder sb = new StringBuilder();
 	      int cp;
@@ -32,10 +35,11 @@ public class Handler {
 	public static JSONArray readJsonArrayFromUrl(String url) throws IOException, JSONException {
 	    InputStream is = new URL(url).openStream();
 	    try {
+	    	
 	       BufferedReader rd = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
 	       String jsonText = readAll(rd);
-	       JSONArray json = new JSONArray(jsonText);
-	       return json;
+	       return new JSONArray(jsonText);
+
 	     } finally {
 	       is.close();
 	     }
