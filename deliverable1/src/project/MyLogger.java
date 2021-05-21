@@ -16,7 +16,7 @@ public class MyLogger {
 	private MyLogger() throws SecurityException, IOException {
 		this.fh = new FileHandler(PATH);
 		this.logger.addHandler(fh);
-		SimpleFormatter formatter = new SimpleFormatter();
+		var formatter = new SimpleFormatter();
 		fh.setFormatter(formatter);
 	}
 

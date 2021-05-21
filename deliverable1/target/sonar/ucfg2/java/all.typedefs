@@ -1224,36 +1224,7 @@ read([BII)java.io.InputStream#read([BII)I]
 skip(J)java.io.InputStream#skip(J)J9
 readNBytes([BII)%java.io.InputStream#readNBytes([BII)I'
 mark(I)java.io.InputStream#mark(I)V'
-close()java.io.InputStream#close()Vè
-java.nio.charset.Charsetjava.lang.Comparablejava.lang.ObjectR
-equals(Ljava/lang/Object;)4java.nio.charset.Charset#equals(Ljava/lang/Object;)Z4
-canEncode()%java.nio.charset.Charset#canEncode()Zn
-(put(Ljava/util/Iterator;Ljava/util/Map;)Bjava.nio.charset.Charset#put(Ljava/util/Iterator;Ljava/util/Map;)Vm
-forName(Ljava/lang/String;)Njava.nio.charset.Charset#forName(Ljava/lang/String;)Ljava/nio/charset/Charset;X
-checkName(Ljava/lang/String;)7java.nio.charset.Charset#checkName(Ljava/lang/String;)Vƒ
-&lookupViaProviders(Ljava/lang/String;)Yjava.nio.charset.Charset#lookupViaProviders(Ljava/lang/String;)Ljava/nio/charset/Charset;2
-
-hashCode()$java.nio.charset.Charset#hashCode()I:
-isRegistered()(java.nio.charset.Charset#isRegistered()Z>
-	aliases()1java.nio.charset.Charset#aliases()Ljava/util/Set;X
-availableCharsets()Ajava.nio.charset.Charset#availableCharsets()Ljava/util/SortedMap;I
-displayName()8java.nio.charset.Charset#displayName()Ljava/lang/String;W
-defaultCharset()Cjava.nio.charset.Charset#defaultCharset()Ljava/nio/charset/Charset;C
-
-toString()5java.nio.charset.Charset#toString()Ljava/lang/String;l
-decode(Ljava/nio/ByteBuffer;)Kjava.nio.charset.Charset#decode(Ljava/nio/ByteBuffer;)Ljava/nio/CharBuffer;l
-encode(Ljava/nio/CharBuffer;)Kjava.nio.charset.Charset#encode(Ljava/nio/CharBuffer;)Ljava/nio/ByteBuffer;\
-isSupported(Ljava/lang/String;)9java.nio.charset.Charset#isSupported(Ljava/lang/String;)Zk
-lookup(Ljava/lang/String;)Mjava.nio.charset.Charset#lookup(Ljava/lang/String;)Ljava/nio/charset/Charset;‰
-)lookupExtendedCharset(Ljava/lang/String;)\java.nio.charset.Charset#lookupExtendedCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;G
-providers()8java.nio.charset.Charset#providers()Ljava/util/Iterator;m
-lookup2(Ljava/lang/String;)Njava.nio.charset.Charset#lookup2(Ljava/lang/String;)Ljava/nio/charset/Charset;;
-name()1java.nio.charset.Charset#name()Ljava/lang/String;f
-encode(Ljava/lang/String;)Hjava.nio.charset.Charset#encode(Ljava/lang/String;)Ljava/nio/ByteBuffer;m
-displayName(Ljava/util/Locale;)Jjava.nio.charset.Charset#displayName(Ljava/util/Locale;)Ljava/lang/String;h
-%compareTo(Ljava/nio/charset/Charset;)?java.nio.charset.Charset#compareTo(Ljava/nio/charset/Charset;)I„
-3cache(Ljava/lang/String;Ljava/nio/charset/Charset;)Mjava.nio.charset.Charset#cache(Ljava/lang/String;Ljava/nio/charset/Charset;)Vx
--<init>(Ljava/lang/String;[Ljava/lang/String;)Gjava.nio.charset.Charset#<init>(Ljava/lang/String;[Ljava/lang/String;)VÝR
+close()java.io.InputStream#close()VÝR
 org.json.JSONObjectjava.lang.Object\
 query(Ljava/lang/String;)?org.json.JSONObject#query(Ljava/lang/String;)Ljava/lang/Object;€
 ,getEnum(Ljava/lang/Class;Ljava/lang/String;)Porg.json.JSONObject#getEnum(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;…

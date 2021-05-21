@@ -7,10 +7,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.revwalk.RevCommit;
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -49,7 +47,7 @@ public class MainControl {
 
 			for (; i < total && i < j; i++) {
 				// Iterate through each bug
-				String key = issues.getJSONObject(i % 1000).get("key").toString();
+				var key = issues.getJSONObject(i % 1000).get("key").toString();
 
 				LocalDateTime dateTime = GithubHandler.findFixDate(commits, key);
 				if (dateTime != null) {
