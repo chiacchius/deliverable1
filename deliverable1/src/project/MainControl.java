@@ -12,6 +12,7 @@ import org.eclipse.jgit.revwalk.RevCommit;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
 public class MainControl {
 
 	static Map<String, LocalDateTime> resolutions = new HashMap<>();
@@ -24,7 +25,7 @@ public class MainControl {
 		
 		
 		var projName = "STDCXX";
-		var path = "/Users/chiacchius/Desktop/";
+		var path = "./";
 		Integer j = 0;
 		Integer i = 0;
 		Integer total = 1;
