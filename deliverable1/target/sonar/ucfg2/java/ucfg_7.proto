@@ -1,27 +1,27 @@
 
 Hproject.Handler#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /()"7*Ò
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java. .()"7*Ò
 2V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java5 5(#"u
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java4 4(#"u
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java5 5(#
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java4 4(#
 
 %9org.json.JSONObject*Ý
 3V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java3 3(!™
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(!™
 –
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java3 3(!
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(!
 jsonTextjava.lang.String"__id*
 
 %8java.lang.String‹ˆ
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java5 5(
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java4 4(
 %9org.json.JSONObject"org.json.JSONObjectÐ
 Í
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java5
- 5("
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java4
+ 4("
 %10"/org.json.JSONObject#<init>(Ljava/lang/String;)V*
 
 %9org.json.JSONObject*
@@ -29,29 +29,29 @@ L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java5
 jsonTextjava.lang.String*
 2*ê
 4V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(RŸ
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(RŸ
 œ
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(R
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(R
 rdjava.io.BufferedReader"__id*
 
 %6java.io.BufferedReaderå
 â
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java3 3( 
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2( 
 %8java.lang.String";project.Handler#readAll(Ljava/io/Reader;)Ljava/lang/String;*"
 project.Handler*
 
 rdjava.io.BufferedReader*
 3*Í
 5V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(Q‘Ž
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(Q‘Ž
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(
 %6java.io.BufferedReader"java.io.BufferedReaderÖ
 Ó
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(Q
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(Q
 %7"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*
 
 %6java.io.BufferedReader*!
@@ -59,18 +59,18 @@ L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2
 %4java.io.InputStreamReader*
 4* 
 6V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java25 2(7‰
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java15 1(7‰
 †
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java29 2(O
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java19 1(O
 %3java.nio.charset.Charset"__id*
 ""—”
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2# 2(4
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1# 1(4
 %4java.io.InputStreamReader"java.io.InputStreamReader—
 ”
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2 2(P
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java1 1(P
 %5"Rjava.io.InputStreamReader#<init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V*!
 
 %4java.io.InputStreamReader*
@@ -80,26 +80,26 @@ L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java2
 %3java.nio.charset.Charset*
 5*†
 7V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java0 0(|z
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /(|z
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java0 0(
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /(
 %0java.net.URL"java.net.URL¼
 ¹
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java0 0(
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /(
 %1"(java.net.URL#<init>(Ljava/lang/String;)V*
 
 %0java.net.URL*
 
 urljava.lang.StringÊÇ
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java0 0(,
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /(,
 %2java.io.InputStream".java.net.URL#openStream()Ljava/io/InputStream;*
 
 %0java.net.URL2openStream()™
 –
 V
-L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java0 0(-
+L/Users/chiacchius/Desktop/deliverable1/deliverable1/src/project/Handler.java/ /(-
 isjava.io.InputStream"__id*
 
 %2java.io.InputStream*
