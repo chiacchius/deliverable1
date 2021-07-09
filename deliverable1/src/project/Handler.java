@@ -58,15 +58,11 @@ public class Handler {
 
 		Integer numTickets;
 		Integer i;
-		FileWriter fileWriter = null;
-		try {
-			fileWriter = new FileWriter("ProcessControlChart.csv"); // Name of CSV for output
-		} catch (Exception e) {
-			MyLogger.getSingletonInstance().saveMess("[X] Error in fileWriter creation\n");
-		}
-
-		try {
-
+		
+		try(FileWriter fileWriter = new FileWriter("ProcessControlChart.csv")){ // Name of CSV for output) 
+			
+			
+			
 			fileWriter.append("Ticket; Resolution Date");
 			fileWriter.append("\n");
 			numTickets = resolutions.size();
@@ -76,18 +72,14 @@ public class Handler {
 				fileWriter.append(resolutions.get(tickets.get(i)).toString().subSequence(0, 10));
 				fileWriter.append("\n");
 			}
+			fileWriter.flush();
+		
 
 		} catch (Exception e) {
 			MyLogger.getSingletonInstance().saveMess("[*] Error in csv writing!!!");
 			e.printStackTrace();
-		} finally {
-			try {
-				fileWriter.flush();
-				fileWriter.close();
-			} catch (IOException e) {
-				MyLogger.getSingletonInstance().saveMess("[X] Error while flushing/closing fileWriter !!!");
-			}
-		}
+		} 
+		
 
 	}
 }
