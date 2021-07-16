@@ -19,6 +19,8 @@ public class MainControl {
 
 	static Map<String, LocalDateTime> resolutions = new HashMap<>();
 	static List<String> tickets = new ArrayList<>();
+	private static int ticketsWithoutResolutionDate = 0;
+	private static int numberOfTickets = 0;
 	static List<RevCommit> commits = new ArrayList<>();
 	static MyLogger logCTR;
 
@@ -51,19 +53,21 @@ public class MainControl {
 			for (; i < total && i < j; i++) {
 				// Iterate through each bug
 				var key = issues.getJSONObject(i % 1000).get("key").toString();
-
+				numberOfTickets++;
 				LocalDateTime dateTime = GithubHandler.findFixDate(commits, key);
 				if (dateTime != null) {
 					resolutions.put(key, dateTime);
 					tickets.add(key);
 				} else {
+					ticketsWithoutResolutionDate++;
 					logCTR.saveMess(key);
 				}
 
 			}
 		} while (i < total);
+		double percentage = (double) ((double)ticketsWithoutResolutionDate/(double)numberOfTickets)*100;
 
-		Handler.writeCsv(resolutions, tickets);
+		Handler.writeCsv(resolutions, tickets, percentage);
 
 		logCTR.saveMess("[*] Exiting for proj " + projName);
 	}

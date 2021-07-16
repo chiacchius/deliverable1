@@ -54,7 +54,7 @@ public class Handler {
 		}
 	}
 
-	public static void writeCsv(Map<String, LocalDateTime> resolutions, List<String> tickets) throws IOException {
+	public static void writeCsv(Map<String, LocalDateTime> resolutions, List<String> tickets, double percentage) throws IOException {
 
 		Integer numTickets;
 		Integer i;
@@ -63,15 +63,23 @@ public class Handler {
 			
 			
 			
-			fileWriter.append("Ticket; Resolution Date");
+			fileWriter.append("Ticket; Resolution Date; Percentage of tickets without fixDate");
+			
 			fileWriter.append("\n");
 			numTickets = resolutions.size();
 			for (i = 0; i < numTickets; i++) {
+				
 				fileWriter.append(tickets.get(i));
 				fileWriter.append(";");
 				fileWriter.append(resolutions.get(tickets.get(i)).toString().subSequence(0, 10));
+				
+				if (i == 0) {
+					fileWriter.append(";");
+					fileWriter.append(percentage+ "%");
+				}
 				fileWriter.append("\n");
 			}
+			
 			fileWriter.flush();
 		
 
