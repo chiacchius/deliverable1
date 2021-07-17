@@ -872,13 +872,13 @@ LofInstant(Ljava/time/LocalDateTime;Ljava/time/ZoneOffset;Ljava/time/ZoneId;)}j
 withYear(I)<java.time.ZonedDateTime#withYear(I)Ljava/time/ZonedDateTime;O
 withSecond(I)>java.time.ZonedDateTime#withSecond(I)Ljava/time/ZonedDateTime;W
 withDayOfMonth(I)Bjava.time.ZonedDateTime#withDayOfMonth(I)Ljava/time/ZonedDateTime;O
-minusWeeks(J)>java.time.ZonedDateTime#minusWeeks(J)Ljava/time/ZonedDateTime;ø
-project.Handlerjava.lang.Objectg
-)writeCsv(Ljava/util/Map;Ljava/util/List;):project.Handler#writeCsv(Ljava/util/Map;Ljava/util/List;)VX
+minusWeeks(J)>java.time.ZonedDateTime#minusWeeks(J)Ljava/time/ZonedDateTime;ú
+project.Handlerjava.lang.ObjectX
 readAll(Ljava/io/Reader;);project.Handler#readAll(Ljava/io/Reader;)Ljava/lang/String;%
 <init>()project.Handler#<init>()Vx
 (readJsonArrayFromUrl(Ljava/lang/String;)Lproject.Handler#readJsonArrayFromUrl(Ljava/lang/String;)Lorg/json/JSONArray;o
-#readJsonFromUrl(Ljava/lang/String;)Hproject.Handler#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;(
+#readJsonFromUrl(Ljava/lang/String;)Hproject.Handler#readJsonFromUrl(Ljava/lang/String;)Lorg/json/JSONObject;i
+*writeCsv(Ljava/util/Map;Ljava/util/List;D);project.Handler#writeCsv(Ljava/util/Map;Ljava/util/List;D)V(
 java.lang.Appendablejava.lang.Objectâ5
 java.lang.AbstractStringBuilderjava.lang.CharSequencejava.lang.Appendablejava.lang.Object?
 setCharAt(IC).java.lang.AbstractStringBuilder#setCharAt(IC)VW

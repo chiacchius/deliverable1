@@ -65,7 +65,7 @@ public class MainControl {
 
 			}
 		} while (i < total);
-		double percentage = (double) ((double)ticketsWithoutResolutionDate/(double)numberOfTickets)*100;
+		double percentage = ((double)ticketsWithoutResolutionDate/(double)numberOfTickets)*100;
 
 		Handler.writeCsv(resolutions, tickets, percentage);
 
